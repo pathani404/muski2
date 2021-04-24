@@ -39,17 +39,16 @@ header = {
 os.system('git pull')
 os.system('clear')
 logo = """
-\033[1;91m  ██████████  \033[1;96m██████████  \033[1;93m█████████  \033[1;92m ▀
-\033[1;91m  ███    ███  \033[1;96m███    ███  \033[1;93m███   ███  \033[1;92m███ 
-\033[1;91m  ███         \033[1;96m███    ███  \033[1;93m███   ███  \033[1;92m███ 
-\033[1;91m  ██████████  \033[1;96m██████████  \033[1;93m███   ███  \033[1;92m███ 
-\033[1;91m         ███  \033[1;96m███    ███  \033[1;93m███   ███  \033[1;92m███  
-\033[1;91m  ███    ███  \033[1;96m███    ███  \033[1;93m███   ███  \033[1;92m███  
-\033[1;91m  ██████████  \033[1;96m███    ███  \033[1;93m███   ███  \033[1;92m███ \x1b[1;90mKING
+\033[1;91m  ███╗░░░███╗██╗░░░██╗░██████╗██╗░░██╗██╗
+\033[1;96m  ████╗░████║██║░░░██║██╔════╝██║░██╔╝██║
+\033[1;91m  ██╔████╔██║██║░░░██║╚█████╗░█████═╝░██║
+\033[1;96m  ██║╚██╔╝██║██║░░░██║░╚═══██╗██╔═██╗░██║
+\033[1;91m  ██║░╚═╝░██║╚██████╔╝██████╔╝██║░╚██╗██║
+\033[1;96m  ╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝░░╚═╝╚═
 \033[1;94m===============================================
-\033[1;90m➣ Author : \033[1;97mPFG MAKER HERE
-\033[1;90m➣ Github : \033[1;97mhttps://github.com/AK-KiNg-60
-\033[1;90m➣ Fb Page: \033[1;97mAK YOUSAFZAI Official
+\033[1;90m➣ Author : \033[1;97mTFG OWNER
+\033[1;90m➣ Github : \033[1;97mhttps://github.com/pathani404
+\033[1;90m➣ Fb Page: \033[1;97mXTYLISH PATHANI
 \033[1;94m==============================================="""
 
 
@@ -82,7 +81,7 @@ def reg():
         print ' \033[1;92mCopy the id and send to admin'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100057861373806')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100057488713509')
         reg()
 
 
@@ -95,7 +94,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to Facebook ')
-    os.system('xdg-open https://www.facebook.com/profile.php?id=100057861373806')
+    os.system('xdg-open https://www.facebook.com/profile.php?id=100057488713509')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
