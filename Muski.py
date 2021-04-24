@@ -466,7 +466,7 @@ def a_s():
     print ' \033[1;92mCrack Running\033[1;94m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\033[1;92mSANI Queen Of Facebook\033[1;94m'
+    print '\t\033[1;92mMUSKI Queen Of Facebook\033[1;94m'
     print 47 * '-'
     
     def main(arg):
@@ -541,7 +541,7 @@ def a_s():
     p = ThreadPool(30)
     p.map(main, id)
     print 47 * '-'
-    print ' \033[1;92mChalo KEEP SMILE '
+    print ' \033[1;92m KEEP SMILE '
     print ' \033[1;92mTotal \033[1;95mOk\033[1;90m/\033[1;97mCp:' + str(len(oks)) + '/' + str(len(cps))
     print 47 * '-'
     raw_input(' \033[1;90mPress enter to back')
